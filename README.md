@@ -1,2 +1,2 @@
-# Ynov_Dev_mobile_niv
- 
+# TP sur Android Studio en bînome  
+Projet réalisé en Mastère 2.
