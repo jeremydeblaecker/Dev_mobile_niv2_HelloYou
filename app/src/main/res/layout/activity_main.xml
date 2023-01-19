@@ -13,13 +13,13 @@
         android:layout_gravity="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Title"/>
         <ImageView
-            android:layout_width="@dimen/size_50"
-            android:layout_height="@dimen/size_50"
-            android:src="@drawable/ic_android"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logo_black"
             android:layout_gravity="center"/>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/hello_kotlin"
+        android:text="@string/hello_kotlin"></TextView>
 
 </LinearLayout>
