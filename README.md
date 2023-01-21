@@ -43,13 +43,13 @@ Le projet est en cours de réalisation il manque donc des éléments et il conti
 
 ## Contenu
 <p>Page d'accueil </p>
-<img src=""/>
+<img src="https://github.com/jeremydeblaecker/Dev_mobile_niv2_HelloYou/blob/main/Images/main.JPG"/>
 <br>
-<p>Message Button</p>
-<img src=""/>
+<p>Message Button clicked</p>
+<img src="https://github.com/jeremydeblaecker/Dev_mobile_niv2_HelloYou/blob/main/Images/button_clicked.JPG"/>
 <br>
 <p>Logcat</p>
-<img src=""/>  
+<img src="https://github.com/jeremydeblaecker/Dev_mobile_niv2_HelloYou/blob/main/Images/logcat.JPG"/>  
 
 ## Partie 2 - Questionnaire  
 
