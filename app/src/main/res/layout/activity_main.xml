@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -12,22 +13,26 @@
         android:text="@string/hello_kotlin"
         android:layout_gravity="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Title"/>
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/logo_black"
-            android:layout_gravity="center"/>
+
+    <ImageView
+        android:layout_width="81dp"
+        android:layout_height="74dp"
+        android:layout_gravity="center"
+        android:src="@drawable/baseline_quiz_24"
+        app:tint="@color/purple_700" />
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/hello_kotlin">
+        android:text="Appuyez sur le bouton pour voir un message:">
     </TextView>
+
     <Button
         android:id="@+id/mainButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="label_click">
-    </Button>
+        android:backgroundTint="@color/pale_blue"
+        android:text="Button"></Button>
 
 </LinearLayout>

@@ -1,11 +1,11 @@
 <resources>
-    <string name="app_name">First Project</string>
+    <string name="app_name">JDJM</string>
     <string name="hello_kotlin">Hello Kotlin!</string>
-    <string name="text_oncreate">onCreate() method is called.</string>
-    <string name="text_onstart">onStart() method is called.</string>
-    <string name="text_onrestart">onRestart() method is called.</string>
-    <string name="text_onresume">onResume() method is called.</string>
-    <string name="text_onpause">onPause() method is called.</string>
-    <string name="text_onstop">onStop() method is called.</string>
-    <string name="text_ondestroy">onDestroy() method is called.</string>
+    <string name="text_oncreate">Méthode onCreate() est appelé.</string>
+    <string name="text_onstart">Méthode onStart() est appelé.</string>
+    <string name="text_onrestart">Méthode onRestart() est appelé</string>
+    <string name="text_onresume">Méthode onResume() est appelé</string>
+    <string name="text_onpause">Méthode onPause() est appelé</string>
+    <string name="text_onstop">Méthode onStop() est appelé</string>
+    <string name="text_ondestroy">Méthode onDestroy() est appelé</string>
 </resources>

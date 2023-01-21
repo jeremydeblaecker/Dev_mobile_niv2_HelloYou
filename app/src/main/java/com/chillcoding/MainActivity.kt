@@ -13,7 +13,6 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-
         var button = findViewById<Button>(R.id.mainButton)
         button.setOnClickListener {
             Toast.makeText(this, "hi", Toast.LENGTH_LONG).show()
