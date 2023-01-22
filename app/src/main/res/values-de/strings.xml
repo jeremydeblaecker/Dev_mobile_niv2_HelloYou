@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">JDJM</string>
+    <string name="hello_kotlin">Hallo Kotlin!</string>
+    <string name="text_oncreate">Methode onCreate() wird genannt.</string>
+    <string name="text_onstart">Methode onStart() wird genannt.</string>
+    <string name="text_onrestart">Methode onRestart() wird genannt</string>
+    <string name="text_onresume">Methode onResume() wird genannt</string>
+    <string name="text_onpause">Methode onPause() wird genannt</string>
+    <string name="text_onstop">Methode onStop() wird genannt</string>
+    <string name="text_ondestroy">Methode onDestroy() wird genannt</string>
+    <string name="toast_msg">Hallo</string>
+</resources>

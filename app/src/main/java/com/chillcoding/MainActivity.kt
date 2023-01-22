@@ -13,11 +13,15 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+        onClicked()
+        Log.i(MainActivity::class.simpleName, getString(R.string.text_oncreate))
+    }
+
+    fun onClicked(){
         var button = findViewById<Button>(R.id.mainButton)
         button.setOnClickListener {
-            Toast.makeText(this, "hi", Toast.LENGTH_LONG).show()
+            Toast.makeText(this, getString(R.string.toast_msg), Toast.LENGTH_LONG).show()
         }
-        Log.i(MainActivity::class.simpleName, getString(R.string.text_oncreate))
     }
     override fun onRestart() {
         super.onRestart()
