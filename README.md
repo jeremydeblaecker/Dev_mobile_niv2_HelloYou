@@ -45,8 +45,17 @@ Le projet est en cours de réalisation il manque donc des éléments et il conti
 <p>Page d'accueil </p>
 <img src="https://github.com/jeremydeblaecker/Dev_mobile_niv2_HelloYou/blob/main/Images/main.JPG"/>
 <br>
-<p>Message Button clicked</p>
+<p>Logo de l'application</p>
+<img src="https://github.com/jeremydeblaecker/Dev_mobile_niv2_HelloYou/blob/main/Images/logo%20app.JPG"/>
+<br>
+<p>Message Button when clicked</p>
 <img src="https://github.com/jeremydeblaecker/Dev_mobile_niv2_HelloYou/blob/main/Images/button_clicked.JPG"/>
+<br>
+<p>Langue français</p>
+<img src="https://github.com/jeremydeblaecker/Dev_mobile_niv2_HelloYou/blob/main/Images/fr.JPG"/>
+<br>
+<p>Langue allemand</p>
+<img src="https://github.com/jeremydeblaecker/Dev_mobile_niv2_HelloYou/blob/main/Images/de.JPG"/>
 <br>
 <p>Logcat</p>
 <img src="https://github.com/jeremydeblaecker/Dev_mobile_niv2_HelloYou/blob/main/Images/logcat.JPG"/>  
@@ -55,11 +64,6 @@ Le projet est en cours de réalisation il manque donc des éléments et il conti
 
 
 ## A venir  
-1. Partie 1:  
-    * Ajouter la langue  
-    * Sortir le toast de onCreate()  
-    * UI Not Responding
-    * Vérifier la liste des prérequis sur Moodle et sur Teams  
 2. Partie 2 :  
     * Ajouter un questionnaire  
     * Ajouter un menu pour faciliter le changement de catégorie  
