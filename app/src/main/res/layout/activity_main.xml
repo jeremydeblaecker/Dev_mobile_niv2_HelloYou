@@ -15,6 +15,7 @@
         android:textAppearance="@style/TextAppearance.AppCompat.Title"/>
 
     <ImageView
+        android:contentDescription="@string/image_description"
         android:layout_width="81dp"
         android:layout_height="74dp"
         android:layout_gravity="center"
@@ -34,5 +35,21 @@
         android:layout_gravity="center"
         android:backgroundTint="@color/pale_blue"
         android:text="Button"></Button>
+
+    <TextView
+        android:id="@+id/quizz_summary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quizz de géographie :" />
+
+    <Button
+        android:id="@+id/jouer"
+        android:layout_width="98dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/purple_700"
+        android:onClick="onClickBtnPlay"
+        android:text="Jouer"></Button>
+
 
 </LinearLayout>

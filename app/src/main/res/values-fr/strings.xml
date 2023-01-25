@@ -3,6 +3,7 @@
     <string name="app_name">JDJM</string>
     <string name="hello_kotlin">Bonjour Kotlin!</string>
     <string name="toast_msg">Salut</string>
+    <string name="image_description">Logo quizz</string>
     <string name="text_oncreate">Méthode onCreate() est appelé.</string>
     <string name="text_onstart">Méthode onStart() est appelé.</string>
     <string name="text_onrestart">Méthode onRestart() est appelé</string>

@@ -1,11 +1,13 @@
 package com.chillcoding
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import android.widget.Button
 import android.widget.Toast
 import android.content.res.Resources.getSystem
+import android.view.View
 import androidx.core.content.ContextCompat
 import androidx.core.content.res.ResourcesCompat
 
@@ -22,6 +24,11 @@ class MainActivity : AppCompatActivity() {
         button.setOnClickListener {
             Toast.makeText(this, getString(R.string.toast_msg), Toast.LENGTH_LONG).show()
         }
+    }
+
+    fun onClickBtnPlay(view: View){
+        val intent = Intent(this, QuizActivity::class.java)
+        startActivity(intent)
     }
     override fun onRestart() {
         super.onRestart()
