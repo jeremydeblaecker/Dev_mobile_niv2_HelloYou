@@ -21,10 +21,10 @@ class QuizActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(activity_quiz)
 
-        quizz.add(Quiz(images = R.drawable.aus,"Quelle est la capitale de l'Australie", "Canberra", "Melbourne", "Sydney", "Adélaïde", 1))
-        quizz.add(Quiz(images = R.drawable.turk,"Quelle est ce pays ?", "Ouzbékistan", "Kirghizistan", "Turkménistan", "Tadjikistan", 3))
-        quizz.add(Quiz(images = R.drawable.india,"Quelle est la capitale de l'Inde", "Mumbai", "Bombay", "Calcuta", "New Delhi", 4))
-        quizz.add(Quiz(images = R.drawable.brand,"Quelle est ce monument ?", "L'Arc de Constantin", "La Porte de Brandebourg", "L'Arc de triomphe de l'Étoile", "L'Arc de Titus", 2))
+        quizz.add(Quiz(images = R.drawable.aus,getString(R.string.question_1), getString(R.string.q1_a1), getString(R.string.q1_a2), getString(R.string.q1_a3), getString(R.string.q1_a4), 1))
+        quizz.add(Quiz(images = R.drawable.turk,getString(R.string.question_2), getString(R.string.q2_a1),  getString(R.string.q2_a2),  getString(R.string.q2_a3),  getString(R.string.q2_a4), 3))
+        quizz.add(Quiz(images = R.drawable.india,getString(R.string.question_3), getString(R.string.q3_a1), getString(R.string.q3_a2), getString(R.string.q3_a3), getString(R.string.q3_a4), 4))
+        quizz.add(Quiz(images = R.drawable.brand,getString(R.string.question_4), getString(R.string.q4_a1), getString(R.string.q4_a2), getString(R.string.q4_a3), getString(R.string.q4_a4), 2))
 
         showQuestion(quizz.get(currentQuizIndex))
 
@@ -44,16 +44,16 @@ class QuizActivity : AppCompatActivity() {
         val quiz = quizz.get(currentQuizIndex)
         if (quiz.isTrue(answerID)){
             numberofGoodAnswers++
-            Toast.makeText(this,"+1 bonne réponse", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this,getString(R.string.ans_true), Toast.LENGTH_SHORT).show()
         }else{
-            Toast.makeText(this,"Mauvaise réponse", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this,getString(R.string.ans_false), Toast.LENGTH_SHORT).show()
         }
         // Go to next question
         currentQuizIndex++
         if (currentQuizIndex>= quizz.size){
             var alert = AlertDialog.Builder(this)
-            alert.setTitle("Partie terminé!")
-            alert.setMessage("Résultat : " + numberofGoodAnswers + " point(s)")
+            alert.setTitle(getString(R.string.end))
+            alert.setMessage(getString(R.string.result) + numberofGoodAnswers + getString(R.string.points))
             alert.setPositiveButton("OK", DialogInterface.OnClickListener { dialog, id -> finish()})
             alert.show()
         }else{

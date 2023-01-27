@@ -8,3 +8,4 @@ class Quiz(var images: Int, var questions: String, var answer1 : String, var ans
         return false
     }
 }
+

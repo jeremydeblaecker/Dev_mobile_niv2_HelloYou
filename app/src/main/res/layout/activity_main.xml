@@ -51,5 +51,19 @@
         android:onClick="onClickBtnPlay"
         android:text="Jouer"></Button>
 
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quiz des transports :" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="98dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="onClickBtnQuiz"
+        android:text="Play" />
+
 
 </LinearLayout>

@@ -30,6 +30,11 @@ class MainActivity : AppCompatActivity() {
         val intent = Intent(this, QuizActivity::class.java)
         startActivity(intent)
     }
+
+    fun onClickBtnQuiz(view: View){
+        val intent = Intent(this, QuizTransportActivity::class.java)
+        startActivity(intent)
+    }
     override fun onRestart() {
         super.onRestart()
         Log.i(MainActivity::class.simpleName, getString(R.string.text_onrestart))

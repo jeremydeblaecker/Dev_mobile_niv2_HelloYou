@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">JDJM</string>
     <string name="hello_kotlin">Hello Kotlin!</string>
-    <string name="toast_msg">hi</string>
+    <string name="toast_msg">Hi</string>
     <string name="image_description">Logo quizz</string>
     <string name="text_oncreate">Méthode onCreate() est appelé.</string>
     <string name="text_onstart">Méthode onStart() est appelé.</string>
@@ -10,4 +10,29 @@
     <string name="text_onpause">Méthode onPause() est appelé</string>
     <string name="text_onstop">Méthode onStop() est appelé</string>
     <string name="text_ondestroy">Méthode onDestroy() est appelé</string>
+    <string name="question_1">What is the capital of Australia ?</string>
+    <string name="question_2">What is this country ?</string>
+    <string name="question_3">What is the capital of India ?</string>
+    <string name="question_4">What is this monument ?</string>
+    <string name="q1_a1">Canberra</string>
+    <string name="q1_a2">Melbourne</string>
+    <string name="q1_a3">Sydney</string>
+    <string name="q1_a4">Adelaide</string>
+    <string name="q2_a1">Uzbekistan</string>
+    <string name="q2_a2">Kyrgyzstan</string>
+    <string name="q2_a3">Turkmenistan</string>
+    <string name="q2_a4">Tajikistan</string>
+    <string name="q3_a1">Mumbai</string>
+    <string name="q3_a2">Bombay</string>
+    <string name="q3_a3">Calcutta</string>
+    <string name="q3_a4">New Delhi</string>
+    <string name="q4_a1">Arch of Constantine</string>
+    <string name="q4_a2">Brandenburg Gate</string>
+    <string name="q4_a3">Triumphal Arch of the Star</string>
+    <string name="q4_a4">Arch of Titus</string>
+    <string name="end">Game finished !</string>
+    <string name="ans_true">Good answer !</string>
+    <string name="ans_false">Bad answser !</string>
+    <string name="result">"Result : "</string>
+    <string name="points">" point(s)"</string>
 </resources>
