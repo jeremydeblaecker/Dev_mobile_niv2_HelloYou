@@ -30,8 +30,6 @@ class QuizTransportActivity: AppCompatActivity() {
         loadQuiz(quizz.get(currentQuizIndex))
     }
 
-
-
     fun loadQuiz(quiz: Quiz){
         val imageView = findViewById<ImageView>(R.id.imageView2)
         imageView.setImageResource(quizz.get(currentQuizIndex).images)

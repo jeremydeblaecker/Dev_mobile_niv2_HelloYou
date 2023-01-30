@@ -36,4 +36,10 @@
     <string name="ans_false">Mauvaise réponse !</string>
     <string name="result">"Résultat : "</string>
     <string name="points">" point(s)"</string>
+    <string name="first_button_menu">Bouton</string>
+    <string name="first_button_menu_text">Appuyez sur le bouton pour voir un message:</string>
+    <string name="second_button_menu_text">Quizz de géographie :</string>
+    <string name="second_button_menu">Jouer Quiz 1</string>
+    <string name="third_button_menu_text">Quiz des transports :</string>
+    <string name="third_button_menu">Jouer Quiz 2</string>
 </resources>

@@ -36,4 +36,10 @@
     <string name="ans_false">Falsch !</string>
     <string name="result">"Endstand : "</string>
     <string name="points">" punkt(e)"</string>
+    <string name="first_button_menu">Knopf</string>
+    <string name="first_button_menu_text">Drücken Sie die Taste, um eine Nachricht anzuzeigen:</string>
+    <string name="second_button_menu_text">Geografie-Quiz:</string>
+    <string name="second_button_menu">Quiz 1 spielen</string>
+    <string name="third_button_menu_text">Transport-Quiz:</string>
+    <string name="third_button_menu">Quiz 2 spielen</string>
 </resources>
