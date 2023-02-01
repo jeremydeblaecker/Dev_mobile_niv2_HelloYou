@@ -42,4 +42,8 @@
     <string name="second_button_menu">Quiz 1 spielen</string>
     <string name="third_button_menu_text">Transport-Quiz:</string>
     <string name="third_button_menu">Quiz 2 spielen</string>
+    <string name="title_activity_bottom_navigation">Bottom Navigation Activity</string>
+    <string name="title_home">Startseite</string>
+    <string name="title_quiz1">Quiz 1: Geographie</string>
+    <string name="title_quiz2">Quiz 2 : Transport</string>
 </resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.chillcoding.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_quiz1"
+        android:name="com.chillcoding.ui.quiz1.Quiz1Fragment"
+        android:label="@string/title_quiz1"
+        tools:layout="@layout/fragment_quiz1" />
+
+    <fragment
+        android:id="@+id/navigation_quiz2"
+        android:name="com.chillcoding.ui.quiz2.Quiz2Fragment"
+        android:label="@string/title_quiz2"
+        tools:layout="@layout/fragment_quiz2" />
+</navigation>
