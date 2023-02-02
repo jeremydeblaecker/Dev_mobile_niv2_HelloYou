@@ -6,14 +6,10 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
-import android.widget.TextView
-import android.widget.Toast
 import android.widget.Toast.*
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import com.chillcoding.R
-import com.chillcoding.databinding.FragmentHomeBinding
-
 class HomeFragment : Fragment() {
 
     private lateinit var homeViewModel: HomeViewModel

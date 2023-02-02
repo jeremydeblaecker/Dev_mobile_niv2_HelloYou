@@ -2,15 +2,17 @@ package com.chillcoding.ui.quiz1
 
 import android.app.AlertDialog
 import android.os.Bundle
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
 import androidx.fragment.app.Fragment
-import androidx.lifecycle.ViewModelProvider
+import com.chillcoding.MainActivity
 import com.chillcoding.Quiz
 import com.chillcoding.R
 import com.chillcoding.databinding.FragmentQuiz1Binding
+import com.chillcoding.ui.home.HomeFragment
 
 class Quiz1Fragment : Fragment() {
     private var _binding: FragmentQuiz1Binding? = null
@@ -66,8 +68,9 @@ class Quiz1Fragment : Fragment() {
             alert.setMessage(
                 getString(R.string.result) + numberofGoodAnswers + getString(R.string.points)
             )
-            alert.setPositiveButton("OK") { _, _ -> requireActivity().finish() }
+            alert.setPositiveButton("OK") { _, _ -> requireActivity().finish()}
             alert.show()
+
         } else {
             showQuestion(quizz[currentQuizIndex])
         }
@@ -76,6 +79,30 @@ class Quiz1Fragment : Fragment() {
     override fun onDestroyView() {
         super.onDestroyView()
         _binding = null
+    }
+
+    override fun onStart() {
+        super.onStart()
+        Log.i(Quiz1Fragment::class.simpleName, getString(R.string.text_onstart))
+    }
+
+    override fun onResume() {
+        super.onResume()
+        Log.i(Quiz1Fragment::class.simpleName, getString(R.string.text_onresume))
+    }
+    override fun onPause() {
+        super.onPause()
+        Log.i(Quiz1Fragment::class.simpleName, getString(R.string.text_onpause))
+    }
+
+    override fun onStop() {
+        super.onStop()
+        Log.i(Quiz1Fragment::class.simpleName, getString(R.string.text_onstop))
+    }
+
+    override fun onDestroy() {
+        super.onDestroy()
+        Log.i(Quiz1Fragment::class.simpleName, getString(R.string.text_ondestroy))
     }
 
 }

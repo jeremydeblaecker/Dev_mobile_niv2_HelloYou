@@ -14,18 +14,22 @@
     <string name="question_2">What is this country ?</string>
     <string name="question_3">What is the capital of India ?</string>
     <string name="question_4">What is this monument ?</string>
+    <!--Réponses Quizz 1 Question 1-->
     <string name="q1_a1">Canberra</string>
     <string name="q1_a2">Melbourne</string>
     <string name="q1_a3">Sydney</string>
     <string name="q1_a4">Adelaide</string>
+    <!--Réponses Quizz 1 Question 2-->
     <string name="q2_a1">Uzbekistan</string>
     <string name="q2_a2">Kyrgyzstan</string>
     <string name="q2_a3">Turkmenistan</string>
     <string name="q2_a4">Tajikistan</string>
+    <!--Réponses Quizz 1 Question 2-->
     <string name="q3_a1">Mumbai</string>
     <string name="q3_a2">Bombay</string>
     <string name="q3_a3">Calcutta</string>
     <string name="q3_a4">New Delhi</string>
+    <!--Réponses Quizz 1 Question 3-->
     <string name="q4_a1">Arch of Constantine</string>
     <string name="q4_a2">Brandenburg Gate</string>
     <string name="q4_a3">Triumphal Arch of the Star</string>
@@ -45,4 +49,24 @@
     <string name="title_home">Home</string>
     <string name="title_quiz1">Quiz 1 : Geography</string>
     <string name="title_quiz2">Quiz 2 : Transportation</string>
+    <!--Réponses Quizz 2 Question 1-->
+    <string name="q2_a1_1">Passy</string>
+    <string name="q2_a1_2">Opéra</string>
+    <string name="q2_a1_3">Place d\'Italie</string>
+    <string name="q2_a1_4">Reuilly Diderot</string>
+    <!--Réponses Quizz 2 Question 2-->
+    <string name="q2_a2_1">ICE</string>
+    <string name="q2_a2_2">TGV</string>
+    <string name="q2_a2_3">Shikansen</string>
+    <string name="q2_a2_4">AVE</string>
+    <!--Réponses Quizz 2 Question 3-->
+    <string name="q2_a3_1">Italia</string>
+    <string name="q2_a3_2">Switzerland</string>
+    <string name="q2_a3_3">Germany</string>
+    <string name="q2_a3_4">Austria</string>
+    <!--Réponses Quizz 2 Quizz 2-->
+    <string name="question_1_q2">What is the missing station?</string>
+    <string name="question_2_q2">What is the name of this train?</string>
+    <string name="question_3_q2">What country is this train from?</string>
+
 </resources>

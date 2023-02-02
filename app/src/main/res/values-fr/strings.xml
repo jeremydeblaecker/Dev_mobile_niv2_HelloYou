@@ -46,4 +46,19 @@
     <string name="title_home">Accueil</string>
     <string name="title_quiz1">Quiz 1 : Géographie</string>
     <string name="title_quiz2">Quiz 2 : Transport</string>
+    <string name="question_1_q2">Quel est la station manquante ?</string>
+    <string name="question_2_q2">Quel est le nom de ce train ?</string>
+    <string name="question_3_q2">De quel pays vient ce train ?</string>
+    <string name="q2_a1_1">Opéra</string>
+    <string name="q2_a1_3">Place d\'Italie</string>
+    <string name="q2_a1_4">Reuilly Diderot</string>
+    <string name="q2_a2_1">ICE</string>
+    <string name="q2_a2_2">TGV</string>
+    <string name="q2_a2_3">Shinkansen</string>
+    <string name="q2_a2_4">AVE</string>
+    <string name="q2_a3_1">Italie</string>
+    <string name="q2_a3_2">Suisse</string>
+    <string name="q2_a3_3">Allemagne</string>
+    <string name="q2_a3_4">Autiche</string>
+    <string name="q2_a1_2">Opéra</string>
 </resources>
