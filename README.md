@@ -24,7 +24,10 @@ Projet réalisé en binôme durant notre 2ème année de Mastère pour le cours 
 ## Introduction
 
 Cette application mobile a pour but de nous entraîner au développement mobile sur Android Studio.  
-
+Il contient 3 branches :  
+* Main : application principale avec les quiz  
+* Menu : bottom nav bar  
+* RecyclerView : Liste de plages  
 
 ## Contributeurs 
 
