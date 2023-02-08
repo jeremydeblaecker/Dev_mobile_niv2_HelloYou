@@ -42,4 +42,5 @@
     <string name="second_button_menu">Jouer Quiz 1</string>
     <string name="third_button_menu_text">Quiz des transports :</string>
     <string name="third_button_menu">Jouer Quiz 2</string>
+    <string name="plages">Liste des plages :</string>
 </resources>

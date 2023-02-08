@@ -41,4 +41,12 @@
     <string name="third_button_menu">Play Quiz 2</string>
     <string name="third_button_menu_text">Transport Quiz:</string>
     <string name="second_button_menu_text">Geography Quiz:</string>
+    <string name="plages">Beach list :</string>
+
+    <string-array name="name">
+        <item>Plage des Rochers, Cannes</item>
+        <item>Praia de Carcavelos, Lisbon</item>
+        <item>Playa de la Barceloneta, Barcelona</item>
+    </string-array>
+
 </resources>

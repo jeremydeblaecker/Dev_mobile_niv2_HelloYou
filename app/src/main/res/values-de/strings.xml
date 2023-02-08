@@ -42,4 +42,5 @@
     <string name="second_button_menu">Quiz 1 spielen</string>
     <string name="third_button_menu_text">Transport-Quiz:</string>
     <string name="third_button_menu">Quiz 2 spielen</string>
+    <string name="plages">Liste der Plagen:</string>
 </resources>
