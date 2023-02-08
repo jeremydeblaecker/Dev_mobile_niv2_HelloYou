@@ -43,9 +43,9 @@ Le projet est en cours de réalisation il manque donc des éléments et il conti
 
 ## Contenu  
 * [Branche 'main' :](#branche_Main)  
-* Branche 'menu' :
-* Branche 'RecyvlerView_liste_plage' :  
-### Branche 'Main'
+* [Branche 'menu' :](#branche_menu)
+* [Branche 'RecyvlerView_liste_plage' :](#branche_recyclerview)  
+### Branche 'Main'  
 <p>Page d'accueil </p>
 <img src="https://github.com/jeremydeblaecker/Dev_mobile_niv2_HelloYou/blob/main/Images/main.JPG"/>
 <br>
@@ -63,7 +63,8 @@ Le projet est en cours de réalisation il manque donc des éléments et il conti
 <br>
 <p>Logcat</p>
 <img src="https://github.com/jeremydeblaecker/Dev_mobile_niv2_HelloYou/blob/main/Images/logcat.JPG"/>  
-
+### Branche 'RecyclerView'  
+### Branche 'Menu'  
 ## Partie 2 - Questionnaire  
 Les quizz sont disponibles en français et en allemand. La langue de base est l'anglais vous pouvez la changer en accédant au parèmetre de votre téléphone.  
 <p>Menu</p>
