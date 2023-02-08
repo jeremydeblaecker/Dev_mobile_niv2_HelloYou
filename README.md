@@ -42,7 +42,7 @@ Le projet est en cours de réalisation il manque donc des éléments et il conti
 ## Partie 1 - ABDC Android, Challenge : Créer un premier projet  
 
 ## Contenu  
-* [Branche 'main' :](### Branche 'Main')  
+* [Branche 'main' :](#branche_Main)  
 * Branche 'menu' :
 * Branche 'RecyvlerView_liste_plage' :  
 ### Branche 'Main'
