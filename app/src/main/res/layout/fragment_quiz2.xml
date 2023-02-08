@@ -50,7 +50,6 @@
                 android:id="@+id/radio_answer2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:clickable="true"
                 android:text="RadioButton" />
 
             <RadioButton

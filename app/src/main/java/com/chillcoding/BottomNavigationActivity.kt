@@ -20,10 +20,11 @@ class BottomNavigationActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         val navView: BottomNavigationView = binding.navView
-
+        //Link the xml file activty bottom navigation
         val navController = findNavController(R.id.nav_host_fragment_activity_bottom_navigation)
         // Passing each menu ID as a set of Ids because each
         // menu should be considered as top level destinations.
+        // Link to the 3 different pages
         val appBarConfiguration = AppBarConfiguration(
             setOf(
                 R.id.navigation_home, R.id.navigation_quiz1, R.id.navigation_quiz2

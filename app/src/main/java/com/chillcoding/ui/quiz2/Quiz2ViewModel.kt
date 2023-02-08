@@ -10,7 +10,7 @@ class Quiz1ViewModel : ViewModel() {
     var numberofGoodAnswers: Int = 0
     var currentQuizIndex: Int = 0
 
-
+    //Calculate the number of good answers given
     fun handleAnswer(answerID: Int) {
         val quiz = quizz[currentQuizIndex]
         if (quiz.isTrue(answerID)) {
@@ -19,11 +19,11 @@ class Quiz1ViewModel : ViewModel() {
 
         currentQuizIndex++
     }
-
+    //Check if the current question is part of the index size if not end quiz
     fun isQuizEnded(): Boolean {
         return currentQuizIndex >= quizz.size
     }
-
+    //Show the quiz question and answers
     fun getCurrentQuiz(): Quiz {
         return quizz[currentQuizIndex]
     }

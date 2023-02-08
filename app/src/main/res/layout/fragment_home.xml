@@ -48,7 +48,6 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:backgroundTint="@color/purple_700"
-        android:onClick="onClickBtnPlay"
         android:text="@string/second_button_menu"></Button>
 
     <TextView
