@@ -64,11 +64,6 @@ Le projet est en cours de réalisation il manque donc des éléments et il conti
 <p>Logcat</p>
 <img src="https://github.com/jeremydeblaecker/Dev_mobile_niv2_HelloYou/blob/main/Images/logcat.JPG"/>  
 
-### Branche 'RecyclerView'  
-<img src="https://github.com/jeremydeblaecker/Dev_mobile_niv2_HelloYou/blob/main/Images/recyclerview.jpg"/>  
-### Branche 'Menu'
-<img src="https://github.com/jeremydeblaecker/Dev_mobile_niv2_HelloYou/blob/main/Images/menu1.jpg"/>  
-
 ## Partie 2 - Questionnaire  
 Les quizz sont disponibles en français et en allemand. La langue de base est l'anglais vous pouvez la changer en accédant au parèmetre de votre téléphone.  
 <p>Menu</p>
@@ -84,6 +79,12 @@ Les quizz sont disponibles en français et en allemand. La langue de base est l'
 ### Quizz 2 : Transport  
 <p>Question 1</p>
 <img src="https://github.com/jeremydeblaecker/Dev_mobile_niv2_HelloYou/blob/main/Images/q1.JPG"/>  
+
+### Branche 'RecyclerView'    
+<img src="https://github.com/jeremydeblaecker/Dev_mobile_niv2_HelloYou/blob/main/Images/recyclerview.jpg"/>  
+
+### Branche 'Menu'  
+<img src="https://github.com/jeremydeblaecker/Dev_mobile_niv2_HelloYou/blob/main/Images/menu1.jpg"/>  
 
 ## A venir  
 * Shared Preferences : languages 
