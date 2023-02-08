@@ -20,16 +20,17 @@ class QuizTransportActivity: AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        // Define the current layout activity quiz 2
         setContentView(R.layout.activity_quiz2)
-
+        // Show the questions, images, answers and response from the strings file
         quizz.add(Quiz(images = R.drawable.trans_q1, "Quel est la station manquante ?", "Passy", "Opéra", "Place d'Italie", "Reuilly Diderot", 3))
         quizz.add(Quiz(images = R.drawable.trans_q2, "Quel est le nom de ce train ?", "ICE", "TGV", "Shikansen", "AVE", 2))
         quizz.add(Quiz(images = R.drawable.trans_q3, "De quel pays vient ce train ?", "Italie", "Suisse", "Allemagne", "Autriche", 4))
 
-
+        // Show the current question from the index
         loadQuiz(quizz.get(currentQuizIndex))
     }
-
+    // Define the questions on the radio button with the answers associated and images to be shown
     fun loadQuiz(quiz: Quiz){
         val imageView = findViewById<ImageView>(R.id.imageView2)
         imageView.setImageResource(quizz.get(currentQuizIndex).images)
@@ -39,7 +40,7 @@ class QuizTransportActivity: AppCompatActivity() {
         findViewById<RadioButton>(R.id.radio_answer3).text =quiz.answer3
         findViewById<RadioButton>(R.id.radio_answer4).text =quiz.answer4
     }
-
+    // Show in a toast if it's a good or bad answer
     fun handleAnswer(answerID : Int){
         val quiz = quizz.get(currentQuizIndex)
         if (quiz.isTrue(answerID)){
@@ -51,6 +52,7 @@ class QuizTransportActivity: AppCompatActivity() {
         // Go to next question
         currentQuizIndex++
         if (currentQuizIndex>= quizz.size){
+            // If the game is finish show an alert with the number of good answers and a button ok to go back to the main activity
             var alert = AlertDialog.Builder(this)
             alert.setTitle(getString(R.string.end))
             alert.setMessage(getString(R.string.result) + numberofGoodAnswers + getString(R.string.points))
@@ -60,7 +62,7 @@ class QuizTransportActivity: AppCompatActivity() {
             loadQuiz(quizz.get(currentQuizIndex))
         }
     }
-
+    // Handle the click answers when the radio button is pressed
     fun onClickAnswer(view: View){
         var radiogroup = findViewById<RadioGroup>(R.id.radioGroup)
         val selectedRadioButtonId: Int = radiogroup.checkedRadioButtonId

@@ -19,17 +19,20 @@ class QuizActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        // Define the current layout activity quiz
         setContentView(activity_quiz)
-
+        // Show the questions, images, answers and response from the strings file
         quizz.add(Quiz(images = R.drawable.aus,getString(R.string.question_1), getString(R.string.q1_a1), getString(R.string.q1_a2), getString(R.string.q1_a3), getString(R.string.q1_a4), 1))
         quizz.add(Quiz(images = R.drawable.turk,getString(R.string.question_2), getString(R.string.q2_a1),  getString(R.string.q2_a2),  getString(R.string.q2_a3),  getString(R.string.q2_a4), 3))
         quizz.add(Quiz(images = R.drawable.india,getString(R.string.question_3), getString(R.string.q3_a1), getString(R.string.q3_a2), getString(R.string.q3_a3), getString(R.string.q3_a4), 4))
         quizz.add(Quiz(images = R.drawable.brand,getString(R.string.question_4), getString(R.string.q4_a1), getString(R.string.q4_a2), getString(R.string.q4_a3), getString(R.string.q4_a4), 2))
 
+        // Show the current question from the index
         showQuestion(quizz.get(currentQuizIndex))
 
     }
 
+    // Define the questions with the answers associated and images to be shown
     fun showQuestion(quiz: Quiz){
         val imageView = findViewById<ImageView>(R.id.imageView)
         imageView.setImageResource(quizz.get(currentQuizIndex).images)
@@ -38,8 +41,9 @@ class QuizActivity : AppCompatActivity() {
         findViewById<TextView>(R.id.answer2).text =quiz.answer2
         findViewById<TextView>(R.id.answer3).text =quiz.answer3
         findViewById<TextView>(R.id.answer4).text =quiz.answer4
-
     }
+
+    // Show in a toast if it's a good or bad answer
     fun handleAnswer(answerID : Int){
         val quiz = quizz.get(currentQuizIndex)
         if (quiz.isTrue(answerID)){
@@ -51,6 +55,7 @@ class QuizActivity : AppCompatActivity() {
         // Go to next question
         currentQuizIndex++
         if (currentQuizIndex>= quizz.size){
+            // If the game is finish show an alert with the number of good answers and a button ok to go back to the main activity
             var alert = AlertDialog.Builder(this)
             alert.setTitle(getString(R.string.end))
             alert.setMessage(getString(R.string.result) + numberofGoodAnswers + getString(R.string.points))
@@ -60,6 +65,7 @@ class QuizActivity : AppCompatActivity() {
             showQuestion(quizz.get(currentQuizIndex))
         }
     }
+    // Handle the click answers when the text is pressed
     fun onClickAnswer1(view: View) { handleAnswer(1) }
     fun onClickAnswer2(view: View) { handleAnswer(2) }
     fun onClickAnswer3(view: View) { handleAnswer(3) }
