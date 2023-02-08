@@ -42,9 +42,9 @@ Le projet est en cours de réalisation il manque donc des éléments et il conti
 ## Partie 1 - ABDC Android, Challenge : Créer un premier projet  
 
 ## Contenu  
-* [Branche 'main' :](#branche_Main)  
-* [Branche 'menu' :](#branche_menu)
-* [Branche 'RecyvlerView_liste_plage' :](#branche_recyclerview)  
+* [Branche 'main' :](#branche-main)  
+* [Branche 'menu' :](#branche-menu)
+* [Branche 'RecyvlerView_liste_plage' :](#branche-recyclerview)  
 ### Branche 'Main'  
 <p>Page d'accueil </p>
 <img src="https://github.com/jeremydeblaecker/Dev_mobile_niv2_HelloYou/blob/main/Images/main.JPG"/>
@@ -82,6 +82,4 @@ Les quizz sont disponibles en français et en allemand. La langue de base est l'
 <img src="https://github.com/jeremydeblaecker/Dev_mobile_niv2_HelloYou/blob/main/Images/q1.JPG"/>  
 
 ## A venir  
-2. Partie 2 :  
-    * Ajouter un menu pour faciliter le changement de catégorie  
-    * Revoir l'UI de la page d'accueil et le design
+* Shared Preferences : languages 
