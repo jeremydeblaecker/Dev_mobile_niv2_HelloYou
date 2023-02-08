@@ -43,8 +43,8 @@ Le projet est en cours de réalisation il manque donc des éléments et il conti
 
 ## Contenu  
 * [Branche 'main' :](#branche-main)  
-* [Branche 'menu' :](#branche-RecyclerView)
-* [Branche 'RecyvlerView_liste_plage' :](#branche-menu)  
+* [Branche 'menu' :](#branche-menu)
+* [Branche 'RecyvlerView_liste_plage' :](#branche-recyclerview)  
 ### Branche 'Main'  
 <p>Page d'accueil </p>
 <img src="https://github.com/jeremydeblaecker/Dev_mobile_niv2_HelloYou/blob/main/Images/main.JPG"/>
@@ -66,7 +66,7 @@ Le projet est en cours de réalisation il manque donc des éléments et il conti
 
 ### Branche 'RecyclerView'  
 <img src="https://github.com/jeremydeblaecker/Dev_mobile_niv2_HelloYou/blob/main/Images/recyclerview.jpg"/>  
-### Branche 'Menu'  
+### Branche 'Menu'
 <img src="https://github.com/jeremydeblaecker/Dev_mobile_niv2_HelloYou/blob/main/Images/menu1.jpg"/>  
 
 ## Partie 2 - Questionnaire  
