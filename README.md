@@ -91,5 +91,6 @@ Les quizz sont disponibles en français et en allemand. La langue de base est l'
 
 ## A venir  
 * 09/02/23 : Ajout des Shared Preferences/User settings notamment du changement de langue
+* Entre les deux séances : fusion des branches, correction de bug
 * 02/03/23 : Ajout d'un nouveau quiz avec fonctionnalités natives notamment un number picker
 * 09/03/23 : Implémentation d'un leader board stocké dans un dataset ou sur sql lite
