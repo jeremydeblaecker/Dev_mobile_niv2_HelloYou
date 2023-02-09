@@ -90,4 +90,6 @@ Les quizz sont disponibles en français et en allemand. La langue de base est l'
 <img src="https://github.com/jeremydeblaecker/Dev_mobile_niv2_HelloYou/blob/main/Images/menu1.jpg"/>  
 
 ## A venir  
-* Shared Preferences : languages 
+* 09/02/23 : Ajout des Shared Preferences/User settings notamment du changement de langue
+* 02/03/23 : Ajout d'un nouveau quiz avec fonctionnalités natives notamment un number picker
+* 09/03/23 : Implémentation d'un leader board stocké dans un dataset ou sur sql lite
