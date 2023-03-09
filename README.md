@@ -14,12 +14,12 @@
 
 
 ## Installation
-Bonjour, vous trouverez le rendu final à l'adresse suivante : https://github.com/Guirdin/mobileAvance.git
-Ce projet final fut réalisé par Jimmy MULLER, Julien MERCADAL, Hai-dang LE, Jeremy DEBLAECKER
-Cloner ce dépôt et l'importer dans  **Android Studio**
+Bonjour, vous trouverez le rendu final à l'adresse suivante : https://github.com/Guirdin/mobileAvance.git  
+Ce projet final fut réalisé par Jimmy MULLER, Julien MERCADAL, Hai-dang LE, Jeremy DEBLAECKER  
+Cloner ce dépôt et l'importer dans  **Android Studio**  
 ```bash
 https://github.com/Guirdin/mobileAvance.git 
-```  
+```    
 ## Contexte  
 Projet réalisé en binôme durant notre 2ème année de Mastère pour le cours de **Développement mobile niveau 2**
 
